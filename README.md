@@ -20,17 +20,21 @@ Packages Needed (Commands for a Linux System):
 5. sudo pip install textract
 
 6. sudo pip install --upgrade gensim
+
 //Python provides many great libraries for text mining practices, “gensim” is one such clean and
 beautiful library to handle text data. It is scalable, robust and efficient.
 
 7. Open a Python console and do the following:
 
->>> import nltk
+import nltk
 
->>> nltk.download()
+nltk.download()
 
 
 Working:
+
 We can then deduce that the given pdf tells us about ‘Switching techniques’ or ‘Packet switching’.
+
 Input: PDF FILE PATH
+
 OUTPUT: Top 4 related words for that topic.
