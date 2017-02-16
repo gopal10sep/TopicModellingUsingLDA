@@ -8,17 +8,25 @@ of the topic which can further be changed by changing the value of the variable 
 
 
 Packages Needed (Commands for a Linux System):
+
 1. sudo apt-get install python-tk
+
 2. sudo apt-get install python-matplotlib
+
 3. sudo pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
-4. sudo apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext
-tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev
+
+4. sudo apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev
+
 5. sudo pip install textract
+
 6. sudo pip install --upgrade gensim
 //Python provides many great libraries for text mining practices, “gensim” is one such clean and
 beautiful library to handle text data. It is scalable, robust and efficient.
+
 7. Open a Python console and do the following:
+
 >>> import nltk
+
 >>> nltk.download()
 
 
