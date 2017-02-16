@@ -29,6 +29,9 @@ import nltk
 nltk.download()
 
 Working:
+
 We can then deduce that the given pdf tells us about ‘Switching techniques’ or ‘Packet switching’.
+
 Input: PDF FILE PATH
+
 OUTPUT: Top 4 related words for that topic.
